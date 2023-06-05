@@ -112,3 +112,7 @@ label {
     font-weight: 700;
     color: #1F2B37;
 }
+
+.green_tick_wrap {
+    text-align: center;
+}
