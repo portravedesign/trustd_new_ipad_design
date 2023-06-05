@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F0F3F7;
+    box-sizing: border-box;
+    min-height:100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+span,
+label {
+    display: inline-block;
+}
+
+.ipad_container {
+    max-width:834px;
+    margin: 0 auto;
+    width:100%;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 32px;
+}
+
+.custom_blue_btn {
+    background: #003C79;
+    border:none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height:52px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#fff; 
+    width:240px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.checkin_btn_image_wrap {
+    padding: 88px 92px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.checkin_btn_wrap {
+    margin-top: 70px;
+}
+
+.main_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
