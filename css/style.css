@@ -59,10 +59,56 @@ label {
 
 .checkin_btn_wrap {
     margin-top: 70px;
+    text-align: center;
 }
 
 .main_section {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.consignment_input {
+    background-color: #F0F3F7;
+    height:88px;
+    width:64px;
+    border-radius: 4px;
+    margin: 0 8px;
+    border:0;
+    font-size: 20px;
+    color: #1F2B37;
+    text-align: center;
+}
+
+.consignment_input:focus,
+.consignment_input:active {
+    outline:none;
+}
+
+.consignment_input_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_disabled {
+    background: #F0F5FA;
+    border:none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height:52px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#687684; 
+    width:240px;
+    border-radius: 8px;
+    cursor: pointer;
+    pointer-events:none;
+}
+
+.form_header {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2B37;
 }
