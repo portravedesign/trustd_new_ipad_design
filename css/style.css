@@ -201,3 +201,27 @@ label {
 .confirmed_complete_sub_header {
     margin-bottom: 0;
 }
+
+.video_header {
+    background-color:#1F2B37;
+    padding: 55px 0 25px 0;
+}
+
+.video_header h6 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+video {
+    width: auto;
+    height:120%;
+    margin-left: -50%;
+}
+
+.video_container {
+    height: calc(100vh - 104px);
+    overflow: hidden;
+}
