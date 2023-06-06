@@ -15,12 +15,42 @@
         <h6>Face recognition</h6>
     </div>
 </header>
-<section class="video_container">
-    <video controls autoplay>
-        <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
-    </video>
-</section>
+<div class="ipad_container">
+    <div class="video_container"> 
+        <div class="video_text">
+            <p class="hind">Position your face within the oval so that we<br>can verify your identity</p>
+            <p class="confirm">"Trustd uses data in accordance with our Privacy Policy"</p>
+            <div class="cam_button">
+                <img src="images/camera_btn.png" alt="">
+            </div>
+        </div>       
+        <video id="webcam" autoplay playsinline></video>
+        <canvas id="canvas" class="d-none"></canvas>
+        <audio id="snapSound" src="audio/snap.wav" preload = "auto"></audio>
+        <div class="webcam_overlay">
+            <img class="overlay_image mobile_image" src="images/cam_overlay.png" alt="">
+            <img src="images/cam_overlay_desktop.png" class="overlay_image desktop_image" alt="">
+        </div>
+        <div class="overlay_rest"></div>
+    </div>
+</div>
+<script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
 
+
+<script>
+    const webcamElement = document.getElementById('webcam');
+    const canvasElement = document.getElementById('canvas');
+    const snapSoundElement = document.getElementById('snapSound');
+    const webcam = new Webcam(webcamElement, 'user', canvasElement, snapSoundElement);
+    webcam.start()
+   .then(result =>{
+      console.log("webcam started");
+   })
+   .catch(err => {
+       console.log(err);
+   });
+
+</script>
 <script src="js/app.js"></script> 
 
 </body>
