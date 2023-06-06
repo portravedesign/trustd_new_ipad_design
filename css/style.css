@@ -55,6 +55,8 @@ label {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    max-width:714px;
+    width:100%;
 }
 
 .checkin_btn_wrap {
@@ -66,6 +68,9 @@ label {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
 }
 
 .consignment_input {
@@ -115,4 +120,80 @@ label {
 
 .green_tick_wrap {
     text-align: center;
+}
+
+.custom_blue_border_white_btn {
+    background: #fff;
+    border:none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height:52px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#003C79; 
+    width:240px;
+    border-radius: 8px;
+    cursor: pointer;
+    pointer-events:none;
+    border:1px solid #003C79;
+}
+
+.confirmed_header {
+    font-size: 40px;
+    text-align: center;
+    color: #1F2B37;
+}
+
+.confirmed_sub_header {
+    font-size: 20px;
+    text-align: center;
+}
+
+.confirmed_header {
+    font-size: 40px;
+    text-align: center;
+    color: #1F2B37;
+    margin-bottom: 32px;
+    margin-top: 40px;
+}
+
+.confirmed_sub_header {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.confirmed_table {
+    width: 100%;
+}
+
+.confirmed_table tr:nth-child(1) td {
+        font-size: 20px;
+        color: #1F2B37;
+        font-weight: 700;
+        padding-bottom: 20px;
+}
+
+.confirmed_table p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1F2B37;
+    margin-bottom: 25px;
+    margin-top: 4px;
+}
+.confirmed_table label {
+    color:#687684;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.confirmed_button_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
 }
