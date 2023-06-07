@@ -238,7 +238,7 @@ button[disabled] {
     left: 50%;
     transform: translateX(-50%) translateY(-50%) !important;
     width: auto;
-    height: 120%;
+    height: 105%;
     z-index: -2;
 }
 
@@ -513,6 +513,8 @@ div.checkin_btn_wrap_failed {
         padding-right: 15px;
     }
 }
+
+
 
 
 
