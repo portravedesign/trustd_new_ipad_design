@@ -343,6 +343,14 @@ button[disabled] {
         margin-top: 25px;
     }
 
+    .video_container {
+        min-height: calc(1194px - 104px);
+    }
+
+    .video_text {
+        margin-top: 818px;
+    }
+
 }
 
 
