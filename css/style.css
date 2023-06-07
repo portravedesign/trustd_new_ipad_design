@@ -96,7 +96,7 @@ label {
     justify-content: center;
 }
 
-.button_disabled {
+button[disabled] {
     background: #F0F5FA;
     border:none;
     margin: 0;
@@ -296,18 +296,131 @@ label {
     padding-top: 40px;
 }
 
-.desktop_image {
-    width: 160%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+.checkin_btn_image_wrap img {
+    max-width: 250px;
+    width: 100%;
 }
 
-@media(min-width:992px) {
-    .mobile_image {
-        display: none;
+
+@media(min-width:840px) {
+    .video_text {
+        margin-top: 80vh;
     }
 }
+
+
+
+@media(min-width:992px){
+    .video_text {
+        margin-top: 80vh;
+    }
+}
+
+
+@media(max-width:767px) {
+    .video_text {
+        margin-top: 80vh;
+    }
+    .hind {
+        font-size: 17px;
+    }
+
+    .confirm {
+        font-size: 14px;
+    }
+
+    .custom_blue_btn {
+        height: 38px;
+        font-size: 14px;
+        width: 156px;
+    }
+
+    button[disabled] {
+        height: 38px;
+        font-size: 14px;
+        width: 156px; 
+    }
+
+    .custom_blue_border_white_btn {
+        height:38px;
+        font-size: 14px;
+        width:156px;
+    }
+
+    .checkin_btn_image_wrap {
+        padding: 30px 30px;
+    }
+
+    .confirmed_button_wrap {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .confirmed_header {
+        font-size: 29px;
+    }
+
+    .confirmed_sub_header {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+    .confirmed_table tr:nth-child(1) td {
+        font-size: 15px;
+    }
+
+    .confirmed_table label {
+        font-size: 14px;
+    }
+
+    .confirmed_table p {
+        font-size: 14px;
+    }
+
+    .confirmed_table td {
+        padding-right: 10px;
+    }
+
+    .ipad_container {
+        padding: 0 15px;
+    }
+
+    img.green-tick-image {
+        max-width: 66px;
+    }
+
+    .confirmed_header {
+        margin-top: 25px;
+    }
+
+    .logo img {
+        max-width: 100px;
+    }
+
+    .consignment_input {
+        height: 60px;
+        width: 40px;
+        margin: 0 4px;
+        font-size: 16px;
+    }
+
+    .form_header {
+        font-size: 21px;
+        margin-top: 18px;
+        text-align: center;
+    }
+}
+
+
+@media(max-width:575px) {
+    .video_text {
+        margin-top: 51vh;
+        padding-left:15px;
+        padding-right: 15px;
+    }
+}
+
+
 
 
 

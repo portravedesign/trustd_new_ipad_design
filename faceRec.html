@@ -29,7 +29,6 @@
         <audio id="snapSound" src="audio/snap.wav" preload = "auto"></audio>
         <div class="webcam_overlay">
             <img class="overlay_image mobile_image" src="images/cam_overlay.png" alt="">
-            <img src="images/cam_overlay_desktop.png" class="overlay_image desktop_image" alt="">
         </div>
         <div class="overlay_rest"></div>
     </div>
@@ -49,6 +48,18 @@
    .catch(err => {
        console.log(err);
    });
+
+   
+window.addEventListener("DOMContentLoaded", function(){
+
+    var width = (window.innerWidth)
+    var vidContainer = document.querySelector(".video_container");
+    var overlayImage = document.querySelector(".overlay_image");
+    var overlayRest = document.querySelector(".overlay_rest");
+       var vidContainerHeight = vidContainer.clientHeight;
+       var overlayImageHeight = overlayImage.clientHeight;
+        overlayRest.style.height = (vidContainerHeight - overlayImageHeight) + "px";    
+})
 
 </script>
 <script src="js/app.js"></script> 
