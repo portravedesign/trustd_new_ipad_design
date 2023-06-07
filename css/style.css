@@ -302,6 +302,24 @@ button[disabled] {
     width: 100%;
 }
 
+.try_header {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.try-again {
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+}
+
+div.checkin_btn_wrap_failed {
+    margin-top: 50px;
+    text-align: center;
+}
+
 
 @media(min-width:840px) {
     .video_text {
@@ -370,18 +388,21 @@ button[disabled] {
         height: 38px;
         font-size: 14px;
         width: 156px;
+        line-height: 38px;
     }
 
     button[disabled] {
         height: 38px;
         font-size: 14px;
         width: 156px; 
+        line-height: 38px;
     }
 
     .custom_blue_border_white_btn {
         height:38px;
         font-size: 14px;
         width:156px;
+        line-height: 38px;
     }
 
     .checkin_btn_image_wrap {
