@@ -140,7 +140,6 @@ button[disabled] {
     width:240px;
     border-radius: 8px;
     cursor: pointer;
-    pointer-events:none;
     border:1px solid #003C79;
     line-height: 52px;
     text-decoration: none;
@@ -326,6 +325,10 @@ div.checkin_btn_wrap_failed {
     text-align: center;
 }
 
+.cam_button img {
+    cursor: pointer;
+}
+
 
 @media(min-width:840px) {
     .video_text {
@@ -373,6 +376,21 @@ div.checkin_btn_wrap_failed {
 
     .video_text {
         margin-top: 818px;
+    }
+    .ipad_container {
+        max-width: 595px;
+    }
+
+    .hind {
+        font-size: 20px;
+    }
+
+    .confirm {
+        font-size: 15px;
+    }
+
+    .video_text {
+        margin-top: 595px;
     }
 
 }
