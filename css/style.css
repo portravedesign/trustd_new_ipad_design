@@ -371,7 +371,7 @@ div.checkin_btn_wrap_failed {
     }
 
     .video_container {
-        min-height: calc(1194px - 104px);
+        min-height: calc(100vh - 104px);
     }
 
     .video_text {
