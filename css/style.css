@@ -44,6 +44,8 @@ label {
     width:240px;
     border-radius: 8px;
     cursor: pointer;
+    line-height: 52px;
+    text-decoration: none;
 }
 
 .checkin_btn_image_wrap {
@@ -111,6 +113,8 @@ button[disabled] {
     border-radius: 8px;
     cursor: pointer;
     pointer-events:none;
+    line-height: 52px;
+    text-decoration: none;
 }
 
 .form_header {
@@ -138,6 +142,8 @@ button[disabled] {
     cursor: pointer;
     pointer-events:none;
     border:1px solid #003C79;
+    line-height: 52px;
+    text-decoration: none;
 }
 
 .confirmed_header {
