@@ -57,6 +57,7 @@ label {
     box-sizing: border-box;
     max-width:714px;
     width:100%;
+    margin: 0 auto;
 }
 
 .checkin_btn_wrap {
@@ -330,6 +331,16 @@ button[disabled] {
     .form_header {
         font-size: 21px;
         margin-top: 27px;
+    }
+
+    img.green-tick-image {
+        max-width: 95px;
+    }
+
+    .confirmed_header {
+        font-size: 32px;
+        margin-bottom: 32px;
+        margin-top: 25px;
     }
 
 }
