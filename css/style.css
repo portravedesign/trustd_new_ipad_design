@@ -314,6 +314,24 @@ button[disabled] {
     .video_text {
         margin-top: 80vh;
     }
+
+    .checkin_btn_image_wrap {
+        padding: 30px 30px;
+        max-width: 582px;
+    }
+
+    .consignment_input {
+        height: 60px;
+        width: 40px;
+        margin: 0 4px;
+        font-size: 16px;
+    }
+
+    .form_header {
+        font-size: 21px;
+        margin-top: 27px;
+    }
+
 }
 
 
