@@ -472,6 +472,20 @@ div.checkin_btn_wrap_failed {
 
     .hind {
         padding: 0 142px;
+        font-size: 23px;
+    }
+
+    .privacy {
+        font-size: 20px;
+    }
+
+    .capture_btn {
+        width: 67px;
+        height: 67px;
+    }
+    .capture_btn span {
+        width: 59px;
+        height: 59px;
     }
 }
 
@@ -516,6 +530,9 @@ div.checkin_btn_wrap_failed {
 @media (min-width:1200px) {
     .video_container::before {
         height: 52px;
+    }
+    .video_container::before {
+        top: -965px;
     }
 }
 
