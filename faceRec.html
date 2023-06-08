@@ -69,6 +69,15 @@
         })
     })
 </script>
+
+<script>
+    window.addEventListener("DOMContentLoaded", function(){
+    var windowHeight = window.innerHeight;
+    var headerHeight = document.querySelector('.header').clientHeight;
+    var videoContainer = document.querySelector('.video_container');
+    videoContainer.style.height = (windowHeight - headerHeight)  + "px";
+})
+</script>
 <script src="js/app.js"></script> 
 
 

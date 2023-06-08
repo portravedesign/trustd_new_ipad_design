@@ -240,7 +240,7 @@ div.checkin_btn_wrap_failed {
 }
 
 .video_container {
-    min-height: calc(100vh - 101.5px);
+    /* min-height: calc(100vh - 101.5px); */
     position: relative;
     overflow: hidden;
     margin-left: -15px;
