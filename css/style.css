@@ -513,6 +513,12 @@ div.checkin_btn_wrap_failed {
 }
 
 
+@media (min-width:1200px) {
+    .video_container::before {
+        height: 52px;
+    }
+}
+
 @media(max-width:767px) {
     
     .custom_blue_btn {
